@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<packages>
+  <package>
+    <name>delaysend</name>
+    <version>1.0.0.0</version>
+    <type>library</type>
+    <dependencies>
+      <dependency>ipc</dependency>
+    </dependencies>
+    <files>
+      <file size="2000">delaysend/delaysend.lua</file>
+      <file size="172">delaysend/manifest.xml</file>
+    </files>
+  </package>
+  <package>
+    <name>entityframes</name>
+    <version>0.8.0.0</version>
+    <type>addon</type>
+    <dependencies>
+      <dependency>party</dependency>
+      <dependency>player</dependency>
+      <dependency>account</dependency>
+      <dependency>target</dependency>
+      <dependency>packets</dependency>
+      <dependency>entities</dependency>
+      <dependency>settings</dependency>
+      <dependency>set</dependency>
+      <dependency>list</dependency>
+      <dependency>world</dependency>
+      <dependency>resources</dependency>
+    </dependencies>
+    <files>
+      <file size="5299">entityframes/action_handling.lua</file>
+      <file size="453">entityframes/attention.png</file>
+      <file size="4419">entityframes/entityframes.lua</file>
+      <file size="19356">entityframes/frame_ui.lua</file>
+      <file size="4398">entityframes/helpers.lua</file>
+      <file size="532">entityframes/manifest.xml</file>
+      <file size="7971">entityframes/options.lua</file>
+      <file size="538">entityframes/target.png</file>
+    </files>
+  </package>
+  <package>
+    <name>superwarp</name>
+    <version>0.1.0.0</version>
+    <type>addon</type>
+    <dependencies>
+      <dependency>packet</dependency>
+      <dependency>packet_service</dependency>
+      <dependency>set</dependency>
+      <dependency>list</dependency>
+      <dependency>pack</dependency>
+      <dependency>settings</dependency>
+      <dependency>player</dependency>
+      <dependency>entities</dependency>
+      <dependency>world</dependency>
+      <dependency>delaysend</dependency>
+    </dependencies>
+    <files>
+      <file size="1285">superwarp/commands.lua</file>
+      <file size="3025">superwarp/config_settings.lua</file>
+      <file size="268">superwarp/defines.lua</file>
+      <file size="3517">superwarp/fmatch.lua</file>
+      <file size="4127">superwarp/helpers.lua</file>
+      <file size="513">superwarp/manifest.xml</file>
+      <file size="3433">superwarp/packet_helpers.lua</file>
+      <file size="17166">superwarp/README.md</file>
+      <file size="24014">superwarp/superwarp.lua</file>
+      <file size="25698">superwarp/map/abyssea.lua</file>
+      <file size="25473">superwarp/map/escha.lua</file>
+      <file size="11964">superwarp/map/guides.lua</file>
+      <file size="27589">superwarp/map/homepoints.lua</file>
+      <file size="360">superwarp/map/maps.lua</file>
+      <file size="6832">superwarp/map/portals.lua</file>
+      <file size="5794">superwarp/map/protowaypoints.lua</file>
+      <file size="13191">superwarp/map/unity.lua</file>
+      <file size="22294">superwarp/map/waypoints.lua</file>
+    </files>
+  </package>
+</packages>

@@ -1,0 +1,17 @@
+<package>
+  <name>superwarp</name>
+  <version>0.1.0.0</version>
+  <type>addon</type>
+  <dependencies>
+    <dependency>packet</dependency>
+    <dependency>packet_service</dependency>
+    <dependency>set</dependency>
+    <dependency>list</dependency>
+    <dependency>pack</dependency>
+    <dependency>settings</dependency>
+    <dependency>player</dependency>
+    <dependency>entities</dependency>
+    <dependency>world</dependency>
+    <dependency>delaysend</dependency>
+  </dependencies>
+</package>

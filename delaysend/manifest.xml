@@ -1,0 +1,8 @@
+<package>
+  <name>delaysend</name>
+  <version>1.0.0.0</version>
+  <type>library</type>
+  <dependencies>
+    <dependency>ipc</dependency>
+  </dependencies>
+</package>

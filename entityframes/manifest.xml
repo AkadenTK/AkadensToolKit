@@ -1,0 +1,18 @@
+<package>
+  <name>entityframes</name>
+  <version>0.8.0.0</version>
+  <type>addon</type>
+  <dependencies>
+    <dependency>party</dependency>
+    <dependency>player</dependency>
+    <dependency>account</dependency>
+    <dependency>target</dependency>
+    <dependency>packets</dependency>
+    <dependency>entities</dependency>
+    <dependency>settings</dependency>
+    <dependency>set</dependency>
+    <dependency>list</dependency>
+    <dependency>world</dependency>
+    <dependency>resources</dependency>
+  </dependencies>
+</package>
