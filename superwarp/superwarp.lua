@@ -133,7 +133,7 @@ local function resolve_warp(map_name, zone, sub_zone)
                 end
             else
                 if options.favorites and options.favorites[map_name] then
-                    local favorite_result = options.favorites[map_name][get_fuzzy_name(closest_zone_name)]
+                    local favorite_result = options.favorites[map_name][closest_zone_name]
                     if favorite_result then
                         local fr = tostring(resolve_sub_zone_aliases(favorite_result))
                         local sub_zone_map = zone_map[fr]
